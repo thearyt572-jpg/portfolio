@@ -1,0 +1,262 @@
+.home{
+  background-image: url(pics/cover.jpg);
+  width: 100%;
+  min-height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cover{ font-size: 40px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.home-but{
+  font-size: 20px;
+  background-color: lightgreen;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.about-but{
+  font-size: 20px;
+  margin-left: 900px;
+  background-color: lightgreen;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.journey-but{
+  font-size: 20px;
+  background-color: lightgreen;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 20px;
+  border: none;
+}
+.contact-but{
+  font-size: 20px;
+  background-color: lightgreen;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  margin-left: 20px;
+}
+
+.projects{
+  font-size: 30px;
+  text-align: center;
+  
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgreen;
+  gap: 60px;
+  width: 100%;
+  height: 70vh;
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 10px;
+
+}
+
+.about-text{
+  flex: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.about-me{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: black;
+}
+.intro{
+  font-size: 20px;
+  line-height: 1.6;
+  color: black;
+  text-align: left;
+  padding-top: 0px;
+  margin-top: 0;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.about-pics{
+  display: flex;
+  gap: 05px;
+  padding-right: 20px;
+}
+
+.me1{
+  display: flex;
+  margin-top: 0;
+  width: 200px;
+  object-fit: cover;
+  transform: translateY(-60px) rotate(-6deg);
+  border-radius: 20%;
+}
+
+.me2{
+  width: 300px;
+  object-fit: cover;
+  transform: translateY(15px) rotate(4deg);
+  border-radius: 20%;
+}
+.me3{
+  width: 200px;
+  object-fit: cover;
+  transform: translateY(-10px) rotate(-3deg);
+  border-radius: 20%;
+}
+
+.skills-section{
+  padding: 20px;
+}
+
+.section-title{
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.badge-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.badge {
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.badge:hover {
+  background-color: #bae6fd;
+  transform: translateY(-2px);
+  cursor: default;
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;         
+  justify-content: center;     
+  gap: 30px;                   
+  padding: 20px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;     
+  align-items: center;         
+  gap: 10px;                   
+}
+
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;           
+  border-radius: 20%;          
+}
+
+.card span {
+  background-color: lightblue;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 12px;         
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.contact h5 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  text-decoration: none; 
+  color: darkgreen;          
+  transition: transform 0.2s ease;
+}
+
+.card2:hover {
+  transform: translateY(-4px); 
+}
+
+.card2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card2 span {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: lightblue;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
